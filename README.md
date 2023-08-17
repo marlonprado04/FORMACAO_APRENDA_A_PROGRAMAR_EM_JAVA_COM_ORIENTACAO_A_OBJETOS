@@ -1,2 +1,3 @@
-# FORMACAO_aprenda_java_com_orientacao_a_objetos
-Estudos realizados com base na Formação: Aprenda Java com Orientação à Objeto disponibilizado pela plataforma ALURA.
+# Aprenda Java com Orientação a Objetos
+
+Pasta com cursos da formação para aprender Java com Orientação à Objetos.

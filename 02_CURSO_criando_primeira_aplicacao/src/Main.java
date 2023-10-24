@@ -22,5 +22,7 @@ public class Main {
 
         System.out.println(dados);
 
+        double nota2Filme = 6.0;
+        int classificacao = (int) nota2Filme;
     }
 }

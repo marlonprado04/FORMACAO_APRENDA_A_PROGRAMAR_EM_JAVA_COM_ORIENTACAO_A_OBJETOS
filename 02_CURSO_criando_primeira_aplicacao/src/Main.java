@@ -8,10 +8,19 @@ public class Main {
         boolean incluidoNoPlano = true;
         double notaFilme = 8.5;
 
-
         System.out.println("Filme? " + filme);
         System.out.println("Ano de lançamento? " + ano);
         System.out.println("Esse filme está plano? " + incluidoNoPlano);
         System.out.println("Nota do filme? " + notaFilme);
+
+        String dados = """
+                Filme: Maverick
+                Ano: 2023
+                Catálogo: True
+                Nota: 8.5
+                """;
+
+        System.out.println(dados);
+
     }
 }

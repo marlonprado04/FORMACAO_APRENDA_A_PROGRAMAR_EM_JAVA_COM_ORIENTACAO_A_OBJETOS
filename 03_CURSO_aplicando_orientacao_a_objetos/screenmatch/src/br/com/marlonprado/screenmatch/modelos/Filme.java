@@ -1,9 +1,27 @@
+package br.com.marlonprado.screenmatch.modelos;
+
 public class Filme {
-    String nome;
-    int anoDeLancamento;
-    boolean incluindoNoPlano;
-    double somaDeAvaliacoes;
-    int totalDeAvaliacoes;
+    private String nome;
+    private int anoDeLancamento;
+    private boolean incluindoNoPlano;
+    private double somaDeAvaliacoes;
+     private int totalDeAvaliacoes;
+
+    public int getTotalDeAvaliacoes() {
+        return totalDeAvaliacoes;
+    }
+
+    public double getSomaDeAvaliacoes() {
+        return somaDeAvaliacoes;
+    }
+
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
+    public String getNome() {
+        return nome;
+    }
 
     void exibeFichaTecnica(){
         System.out.println("Nome do filme: " + nome);
